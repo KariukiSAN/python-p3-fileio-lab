@@ -9,3 +9,6 @@ def append_file(file_name, append_content):
 def read_file(file_name):
     with open(str(file_name) + ".txt", "r") as file:
         return file.read()
+    
+
+    
